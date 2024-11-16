@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import { CollersPage, QuizPage, LandingPage } from "./pages";
+import "./App.css";
 
 function App() {
   return (
