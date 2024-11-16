@@ -1,4 +1,4 @@
-import FeatureCard from "../../components/FeatureCard/FeatureCard";
+import FeatureCard from "../../components/feature-card/FeatureCard";
 import { features } from "../../constants/fetures";
 
 function HeaderFeatures() {

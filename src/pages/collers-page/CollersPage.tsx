@@ -1,6 +1,7 @@
 import CollersNavbar from "../../components/navbar/CollersNavbar";
-import CollectibleSneakers from "../../sections/header/CollectibleSneakers";
-import HeaderFeatures from "../../sections/header/HeaderFeatures";
+import CollectibleSneakers from "../../sections/collectible-section/CollectibleSneakers";
+import HeaderFeatures from "../../sections/collectible-section/HeaderFeatures";
+
 
 function CollersPage() {
   return (

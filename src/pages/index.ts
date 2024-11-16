@@ -1,3 +1,3 @@
-export {default as QuizPage} from './QuizPage/QuizPage';
-export {default as LandingPage} from './LandingPage/LandingPage';
-export {default as CollersPage} from './CollersPage/CollersPage';
+export {default as QuizPage} from './quiz-page/QuizPage';
+export {default as LandingPage} from './landing-page/LandingPage';
+export {default as CollersPage} from './collers-page/CollersPage';
