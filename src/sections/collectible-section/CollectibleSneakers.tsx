@@ -4,12 +4,12 @@ import Sneakers from "../../assets/images/sneakers.png";
 
 function CollectibleSneakers() {
   return (
-    <div className="flex  flex-col md:flex-row items-center gap-8 my-20">
+    <div className="flex flex-col md:flex-row items-center gap-8 m-20">
       <div className="flex-1 ">
-        <h1 className="text-7xl font-bold text-collers-dark mb-4">
+        <h1 className="text-7xl font-bold text-case-dark-blue mb-4">
           Collectible Sneakers
         </h1>
-        <p className="text-lg text-gray-600 mb-6 text-collers-dark">
+        <p className="text-lg text-gray-600 mb-6 text-case-dark-blue">
           Sit elit feugiat turpis sed integer integer accumsan turpis. Sed
           suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices
           amet.

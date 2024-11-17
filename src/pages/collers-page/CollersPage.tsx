@@ -1,18 +1,17 @@
 import CollersNavbar from "../../components/navbar/CollersNavbar";
+import BestOfSection from "../../sections/best-of-section/BestOfSection";
 import CollectibleSneakers from "../../sections/collectible-section/CollectibleSneakers";
 import HeaderFeatures from "../../sections/collectible-section/HeaderFeatures";
+import JoinUsSection from "../../sections/join-us-section/JoinUsSection";
 
-
-function CollersPage() {
+export default function CollersPage() {
   return (
     <>
-      <div className="relative lg:mx-20">
-        <CollersNavbar />
-        <CollectibleSneakers />
-        <HeaderFeatures />
-      </div>
+      <CollersNavbar />
+      <CollectibleSneakers />
+      <HeaderFeatures />
+      <BestOfSection />
+      <JoinUsSection />
     </>
   );
 }
-
-export default CollersPage;

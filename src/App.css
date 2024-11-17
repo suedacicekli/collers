@@ -1,7 +1,13 @@
-.text-collers-dark {
-  color: #0f172a;
-}
-
 * {
   font-family: "Roboto", sans-serif;
+}
+
+/* src/index.css */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }

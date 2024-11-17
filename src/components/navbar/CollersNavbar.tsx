@@ -2,7 +2,7 @@ import "./Collers.css"
 
 function CollersNavbar() {
   return (
-    <div className="navbar bg-base-100 p-0 collers-navbar">
+    <div className="navbar bg-base-100 p-0 collers-navbar px-4 lg:px-20">
       <div className="navbar-start">
         <a className="btn btn-ghost p-0  text-2xl font-bold text-amber-900">
           Collers
