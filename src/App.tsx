@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { CollersPage, QuizPage, LandingPage } from "./pages";
 import "./App.css";
 

@@ -1,17 +1,15 @@
-import CollersNavbar from "../../components/navbar/CollersNavbar";
-import BestOfSection from "../../sections/best-of-section/BestOfSection";
-import CollectibleSneakers from "../../sections/collectible-section/CollectibleSneakers";
-import HeaderFeatures from "../../sections/collectible-section/HeaderFeatures";
-import JoinUsSection from "../../sections/join-us-section/JoinUsSection";
+import {CollersNavbar} from "../../components";
+import {BestOfSection, HeroSection, JoinUsSection} from "../../sections";
+import CollersFooter from "../../components/collers/footer/CollersFooter.tsx";
 
 export default function CollersPage() {
-  return (
-    <>
-      <CollersNavbar />
-      <CollectibleSneakers />
-      <HeaderFeatures />
-      <BestOfSection />
-      <JoinUsSection />
-    </>
-  );
+    return (
+        <>
+            <CollersNavbar/>
+            <HeroSection/>
+            <BestOfSection/>
+            <JoinUsSection/>
+            <CollersFooter/>
+        </>
+    );
 }
