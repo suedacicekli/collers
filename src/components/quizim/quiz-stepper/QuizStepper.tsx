@@ -5,7 +5,6 @@ interface QuizStepperProps {
 }
 
 function QuizStepper({currentStep}: QuizStepperProps) {
-    console.log(currentStep)
     return (
         <div className="overflow-x-auto mt-16 flex gap-4 justify-center">
             {Array.from({length: QUESTIONS_SIZE}, (_, index) => (

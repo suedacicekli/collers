@@ -52,7 +52,6 @@ function QuestionSection() {
 
     useEffect(() => {
         const fetchQuestion = async () => {
-            console.log("girdi")
             try {
                 const response = await getQuestionById(currentQuestionIndex);
                 setQuestion(response);

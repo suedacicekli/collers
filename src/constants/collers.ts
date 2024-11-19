@@ -4,6 +4,10 @@ import Fermentum from "../assets/images/fermentum.png";
 import Product1 from "../assets/images/product1.png";
 import Product2 from "../assets/images/product2.png";
 import Product3 from "../assets/images/product3.png";
+import Profiles1 from "../assets/images/profile1.png";
+import Profiles2 from "../assets/images/profile2.png";
+import Profiles3 from "../assets/images/profile3.png";
+import Profiles4 from "../assets/images/profile4.png";
 
 export const collers = [
   {
@@ -46,3 +50,44 @@ export const products = [
     imageUrl: Product3,
   },
 ];
+
+
+export const cardsData = [
+  {
+    id: 1,
+    title: "Zoomerr",
+    description:
+      "Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus, viverra turpis lorem. Varius a turpis urna id porttitor.",
+    userImage: Profiles1,
+    userName: "Hellen Jummy",
+    userRole: "Team Lead",
+  },
+  {
+    id: 2,
+    title: "SHELLS",
+    description:
+      "Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla.",
+    userImage: Profiles2,
+    userName: "Hellena John",
+    userRole: "Co-founder",
+  },
+  {
+    id: 3,
+    title: "ArtVenue",
+    description:
+      "A eget sed posuere dui risus habitasse mauris. Venentais aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.",
+    userImage: Profiles3,
+    userName: "David Oshodi",
+    userRole: "Manager",
+  },
+  {
+    id: 4,
+    title: "Winers",
+    description:
+      "Magna integritas nibh nisl risus, aenean scelerisque amet malesuada.",
+    userImage: Profiles4,
+    userName: "Jane Doe",
+    userRole: "Designer",
+  },
+];
+

@@ -42,7 +42,7 @@ function JoinUsSection() {
         </div>
 
         <div className="w-full lg:w-1/2 mt-8 flex justify-center relative">
-          <div className="absolute w-[110%] lg:w-[130%]left lg:-top-32 right-0 left-1">
+          <div className="lg:absolute w-[110%] lg:w-[130%]left lg:-top-32 right-0 left-1">
             <img src={WhyJoinUs} alt="Join Us" />
           </div>
         </div>
