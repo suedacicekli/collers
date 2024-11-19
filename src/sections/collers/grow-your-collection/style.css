@@ -1,0 +1,119 @@
+
+.curly-brown {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 30 / 7;
+    z-index: -3;
+    background-image: url("../../../assets/collers-assets/images/curly-brown.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curly-light-yellow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 40 / 15;
+    z-index: -4;
+    background-image: url("../../../assets/collers-assets/images/curly-light-yellow.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curly-yellow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 30 / 14;
+    z-index: -5;
+    background-image: url("../../../assets/collers-assets/images/curly-yellow.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.world-img {
+    height: 100%;
+    width: 85%;
+}
+
+
+.world-pin {
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+    border: 3px solid #a3e635;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.world-pin-s {
+    --size: 1rem;
+}
+
+.world-pin-m {
+    --size: 1.3rem;
+}
+
+.world-pin-l {
+    --size: 1.8rem;
+}
+
+.pin-1 {
+    top: 35%;
+    left: 20%;
+}
+
+.pin-1-tooltip {
+    bottom: 67%;
+    left: 15%;
+    z-index: 10;
+}
+
+.pin-2 {
+    top: 8%;
+    left: 40%;
+}
+
+.pin-3 {
+    top: 25%;
+    left: 34%;
+}
+
+.pin-4 {
+    top: 47%;
+    left: 24%;
+}
+
+.pin-5 {
+    top: 72%;
+    left: 37%;
+}
+
+.pin-6 {
+    top: 74%;
+    left: 33%;
+}
+
+.pin-7 {
+    top: 67%;
+    left: 55%;
+}
+
+.pin-8 {
+    top: 79%;
+    left: 81%;
+}
+
+.pin-9 {
+    top: 49%;
+    left: 79%;
+}
+
+.pin-10 {
+    top: 54%;
+    left: 71%;
+}
